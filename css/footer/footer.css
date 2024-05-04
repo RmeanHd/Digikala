@@ -128,7 +128,7 @@
     }
 
     .followus__details {
-      width: 321px;
+      width: fit-content;
       & h4 {
         font-size: 16px;
         font-weight: 700;
