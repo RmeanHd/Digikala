@@ -105,6 +105,7 @@
     flex-flow: row wrap;
 
     .miscellaneous__details {
+      width: 25%;
       height: 100%;
       display: flex;
       flex-flow: column wrap;
@@ -127,6 +128,7 @@
     }
 
     .followus__details {
+      width: 320px;
       & h4 {
         font-size: 16px;
         font-weight: 700;
