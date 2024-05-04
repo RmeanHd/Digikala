@@ -1,0 +1,87 @@
+.digiclub {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  .digiclub__main {
+    width: 90%;
+    height: 85px;
+    padding: 12px 16px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(76.02deg, #35a6c8 33.32%, #007295 71.55%),
+      radial-gradient(21.29% 87.33% at 50% 50.67%, #7cf2f6 0, #35a6c8 100%);
+    border-radius: 16px;
+    .digiclub__logo {
+      width: 40%;
+      height: 33px;
+      margin-right: 24px;
+      & img {
+        width: 119px;
+        height: 33px;
+      }
+    }
+
+    .digiclub__tabs {
+      width: 25%;
+      margin-right: 8px;
+
+      & a {
+        text-decoration: none;
+
+        .digiclub__first__tab {
+          border-top-right-radius: 8px;
+          border-bottom-right-radius: 8px;
+        }
+
+        .digiclub__last__tab {
+          border-top-left-radius: 8px;
+          border-bottom-left-radius: 8px;
+        }
+
+        .digiclub__tabs__main,
+        .digiclub__first__tab,
+        .digiclub__last__tab {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          background-color: #fff;
+          border: 2px solid #fff;
+          .digiclub__tabs__texts {
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            margin-right: 16px;
+            & svg {
+
+              & path {
+                fill: #00bfd6;
+              }
+            }
+            & span {
+              font-family: var(--fontfamily);
+              color: #0c0c0c;
+              margin-right: 8px;
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 2.17;
+            }
+          }
+          .digiclub__tabs__images{
+            & img {
+              width: 168px;
+              height: 64px;
+              object-fit: cover;
+            }
+          }
+        }
+      }
+    }
+  }
+}

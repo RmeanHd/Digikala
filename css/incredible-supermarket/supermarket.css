@@ -1,0 +1,116 @@
+.supermarket {
+  width: 100%;
+  height: 145px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  row-gap: 16px;
+  .supermarket__ad {
+    width: 90%;
+    height: 110px;
+    padding: 16px 40px 12px 40px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url(../../images/supermarket_ad/freshPattern.svg);
+    background-repeat: no-repeat;
+    background-color: #f0f0f1;
+    border-radius: 16px;
+    .supermarket__ad__right {
+      width: 50%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      column-gap: 20px;
+      & a {
+        text-decoration: none;
+        .offer__text {
+          background-color: #39ae00;
+          width: 112px;
+          height: 28px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          border-radius: 15px;
+          color: whitesmoke;
+          font-family: var(--fontfamily);
+          font-size: 14px;
+          font-weight: 700;
+          color: #fff;
+        }
+      }
+    }
+    .supermarket__ad__left {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+      .items {
+        text-decoration: none;
+        width: 74px;
+        height: 74px;
+        margin-left: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+        & img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+        }
+        .offer__percent{
+          width: 34px;
+          height: 20px;
+          padding-left: 4px;
+          padding-right: 4px;
+          border-radius: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #d32f2f;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          & span {
+            font-family: var(--fontfamily);
+            font-size: 12px;
+            color: #fff;
+            font-weight: 700;
+          }
+        }
+      }
+      .more__items {
+        width: 148px;
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        border-radius: 18px;
+        padding: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #fff;
+        & span {
+          font-family: var(--fontfamily);
+          color: #39ae00;
+          font-weight: 700;
+          font-size: 12px;
+          & svg {
+            & path {
+              fill: #39ae00;
+            }
+          }
+        }
+      }
+    }
+  }
+}

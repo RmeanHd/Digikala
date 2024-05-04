@@ -1,0 +1,178 @@
+.digiplus {
+  width: 100%;
+  margin-top: 24px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  .digiplus__main {
+    width: 90%;
+    height: 390px;
+    padding: 16px 16px;
+    background-color: #941b80;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 16px;
+    .digiplus__right {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center;
+      justify-content: center;
+      padding-top: 24px;
+      margin-left: 12px;
+      background-image: url(../../images/digiplus/plus-widget.png);
+      background-size: 416px;
+      background-position-x: left;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      position: relative;
+      .digiplus__texts {
+        position: absolute;
+        top: 0px;
+        right: -30px;
+        font-family: var(--fontfamily);
+        color: #fff;
+        padding: 24px;
+        .digiplus__mid__text {
+          margin: 4px;
+          font-weight: 400;
+          line-height: 2.15;
+        }
+        .digiplus__login {
+          width: 100px;
+          height: 40px;
+          font-size: 12px;
+          line-height: 2.1;
+          border: 1px solid #fff;
+          border-radius: 8px;
+          font-weight: 700;
+          padding: 8px 16px;
+          & svg {
+            position: absolute;
+            & path {
+              fill: #fff;
+            }
+          }
+        }
+      }
+      .digiplus__image {
+        width: 100%;
+        & img {
+          width: 100%;
+          height: 200px;
+          object-fit: contain;
+        }
+      }
+    }
+
+    .digiplus__left {
+      width: 65%;
+      height: 355px;
+      background-color: #fff;
+      padding-left: 16px;
+      padding-right: 16px;
+      border-radius: 8px;
+      .digiplus__left__text {
+        width: 100%;
+        height: 55px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: space-between;
+        .digiplus__delievery {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+          & h4 {
+            margin-right: 8px;
+            font-family: var(--fontfamily);
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 2.1;
+            color: #0c0c0c;
+          }
+          & svg {
+            & path {
+              fill: #b12ba4;
+            }
+          }
+        }
+        .digiplus__delievery__end {
+          & a {
+            position: absolute;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+            text-decoration: none;
+            position: relative;
+            & span {
+              font-family: var(--fontfamily);
+              color: #b12ba4;
+              justify-self: flex-end;
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 2.17;
+            }
+            & svg {
+              position: relative;
+              top: -2px;
+              right: 2px;
+              & path {
+                fill: #b12ba4;
+              }
+            }
+          }
+        }
+      }
+      .digiplus__slider {
+        width: 100%;
+        height: 300px;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        .swiper {
+          width: 100%;
+          height: 100%;
+        }
+
+        .swiper-slide {
+          text-align: center;
+          font-size: 18px;
+          background: #fff;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: center;
+          align-items: center;
+          .digiplus__items {
+            & a {
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;
+              & img {
+                width: 116px;
+                height: 116px;
+              }
+            }
+          }
+        }
+
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

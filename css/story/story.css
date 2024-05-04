@@ -1,0 +1,76 @@
+.story {
+  width: 100%;
+  height: 160px;
+  padding: 2px 0;
+
+  .story__section {
+    width: 87%;
+    height: inherit;
+    margin: 0 auto;
+  }
+  .swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 10px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    & a {
+      text-decoration: none;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+
+      & img {
+        object-fit: cover;
+        width: 74px;
+        height: 74px;
+        border-radius: 50%;
+        outline: 2px solid purple;
+        outline-offset: 3px;
+        margin-bottom: 10px;
+      }
+
+      & p {
+        min-height:40px ;
+        font-family: var(--fontfamily);
+        font-size: 11px;
+        line-height: 20px;
+        padding: 0 10px;
+        font-weight: 400;
+        color: #23254e;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+      }
+    }
+  }
+}
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  border: 1px solid lightgrey !important;
+}
+
+.swiper-button-prev:after,
+.swiper-rtl .swiper-button-next:after {
+  width: 5px;
+  height: 5px;
+  margin: 2px;
+  font-size: 10px;
+  font-weight: 700;
+  color: #424750;
+}
+
+/* 
+<div class="styles_timeBadge__9pyVG styles_timeBadge__started__fVz_J absolute left-0 right-0 bottom-0 border-solid border-2 border-white w-max mx-auto px-1.5 rounded-md text-caption-strong">زنده</div> */

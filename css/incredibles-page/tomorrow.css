@@ -1,0 +1,162 @@
+.tomorrow {
+  width: 100%;
+  min-height: 110px;
+  padding: 16px 40px 12px 40px;
+
+  .tomorrow__main {
+    width: 100%;
+    height: 110px;
+    padding: 4px 28px 8px 28px;
+    margin: 0 auto;
+    border-radius: 16px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    justify-content: space-between;
+    
+      
+
+
+
+
+    .tomorrow__theme {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-image: url(../../images/incredibles-page/tomorrow/incrediblePattern.svg);
+      background-repeat: no-repeat;
+      background-position: left;
+    }
+
+    .tomorrow__color {
+      position: absolute;
+      z-index: 0;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background-color: #f5f5f5;
+      background-image: linear-gradient(
+        267.6deg,
+        rgba(230, 18, 61, 0.1),
+        hsla(0, 0%, 95%, 0)
+      );
+      background-size: 340px;
+      background-repeat: no-repeat;
+      background-position: 100%;
+    }
+
+    .tomorrow__right {
+      z-index: 1;
+      width: 207px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      .text {
+        margin: 0 20px;
+        font-size: 11px;
+        font-weight: 700;
+        line-height: 2.17;
+        color: #0c0c0c;
+      }
+      .countdown__number {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 4px;
+        height: 60px;
+        color: #23254e;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 2.15;
+        .included {
+          width: 28px;
+          height: 28px;
+          display: flex;
+          flex-flow: column wrap;
+          align-items: center;
+          justify-content: flex-start;
+          border-radius: 4px;
+          background-color: #fff;
+        }
+      }
+    }
+
+    .tomorrow__left {
+      width: 50%;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: flex-end;
+      align-items: center;
+      z-index: 1;
+      .items {
+        text-decoration: none;
+        width: 74px;
+        height: 74px;
+        margin-left: 8px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 8px;
+        border-radius: 50%;
+        background-color: #fff;
+        position: relative;
+        & img {
+          width: 58px;
+          height: 58px;
+          border-radius: 50%;
+        }
+        .offer__percent {
+          width: 34px;
+          height: 20px;
+          padding-left: 4px;
+          padding-right: 4px;
+          border-radius: 16px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: #d32f2f;
+          position: absolute;
+          bottom: 0;
+          right: 0;
+          & span {
+            font-size: 12px;
+            color: #fff;
+            font-weight: 700;
+          }
+        }
+      }
+      .more__items {
+        width: 148px;
+        height: 50px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 10px;
+        border-radius: 18px;
+        padding: 12px;
+        padding-left: 20px;
+        padding-right: 20px;
+        background: #fff;
+        & span {
+          font-family: var(--fontfamily);
+          color: #ef394e;
+          font-weight: 700;
+          font-size: 12px;
+          & svg {
+            & path {
+              fill: #ef394e;
+            }
+          }
+        }
+      }
+    }
+  }
+}

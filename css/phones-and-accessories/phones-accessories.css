@@ -1,0 +1,110 @@
+.phones__accessories {
+  width: 100%;
+  height: 420px;
+  margin-top: 30px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  .accessories__main {
+    width: 90%;
+    height: 420px;
+    background-color: #e0e0e2;
+    border-radius: 16px;
+    .swiper {
+      width: 100%;
+      height: 100%;
+      border: 1px solid #e0e0e2;
+      border-radius: 8px;
+    }
+
+    .swiper-slide {
+      font-size: 18px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background-color: #fff;
+      .accessories__items {
+        width: 100%;
+        height: inherit;
+        font-family: var(--fontfamily);
+        padding: 8px 20px;
+        & h4 {
+          font-size: 16px;
+          font-weight: 700;
+          line-height: 2.1;
+          color: #23254e;
+        }
+        & p {
+          justify-self: flex-start;
+          font-weight: 400;
+          line-height: 2.17;
+          font-size: 11px;
+          color: #81858b;
+          margin-bottom: 8px;
+        }
+        .accessories__images {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+
+        
+          .first{
+            border-left: 2px solid #f0f0f1;
+            border-bottom: 2px solid #f0f0f1;
+          }
+          .second{
+            border-bottom: 2px solid #f0f0f1;
+          }
+          .third{
+            border-left: 2px solid #f0f0f1;
+          }
+          & a {    
+            padding: 8px;
+            & img {
+              width: 100%;
+              height: 130px;
+              object-fit: contain;
+            }
+          }
+        }
+        .accessories__view__text {
+          display: flex;
+          flex-flow: row wrap;
+          align-items: center;
+          justify-content: center;
+        & a{
+            text-decoration: none;
+            & span {
+                position: relative;
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 2.17;
+                color: #19bfd3;
+                text-align: center;
+                margin-top: 4px;
+                margin-bottom: 12px;
+                & svg {
+                  position: absolute;
+                  top: -4px;
+                  left: -20px;  
+                  & path {
+                    fill: #19bfd3;
+                  }
+                }
+              }
+        }
+        }
+      }
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+}

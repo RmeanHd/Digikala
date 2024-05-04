@@ -1,0 +1,144 @@
+.most__sold {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 0px;
+
+  .most__sold__main {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 8px;
+    margin-top: 28px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    margin: 0 auto;
+
+    .most__sold__title {
+      width: 100%;
+      height: 45px;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      background-color: #fff;
+      font-family: var(--fontfamily);
+      
+      .most__sold__text {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+        font-size: 21px;
+        font-weight: 500;
+        line-height: 2.1;
+        color: #0c0c0c;
+        & svg {
+          margin-left: 8px;
+          & path {
+            fill: #f9a825;
+          }
+        }
+      }
+      .most__sold__view {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+
+        & a {
+          text-decoration: none;
+          font-family: var(--fontfamily);
+          color: #19bfd3;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 2.15;
+          position: absolute;
+          padding-left: 16px;
+          left: 0px;
+        }
+      }
+    }
+    .most__sold__slider {
+      width: 100%;
+      height: 298px;
+      .swiper {
+        width: 100%;
+        height: 100%;
+      }
+
+      .swiper-slide {
+        height: 100%;
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+      
+
+        & a {
+          width: 100%;
+          height: 86px;
+          display: flex;
+          flex-flow: row wrap;
+          font-family: var(--fontfamily);
+          & img {
+            width: 86px;
+            height: 86px;
+            margin-left: 12px;
+          }
+          & span {
+            color: #19bfd3;
+            font-size: 26px;
+            font-weight: 800;
+            line-height: 3.5; 
+            margin-left: 8px;
+          }
+          .mymostsold__details {
+            width: 190px;
+            height: 80px;
+            display: flex;
+            flex-flow: row  wrap;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #e0e0e2;
+            
+    
+            & p {
+              text-align: right;
+              color: #3f4064;
+              font-weight: 400;
+              line-height: 2.17;
+              display: -webkit-box;
+              -webkit-line-clamp: 2;
+              -webkit-box-orient: vertical;
+              text-overflow: ellipsis;
+              font-size: 12px;
+              overflow: hidden;
+            }
+            
+          }
+          .last{
+            border-bottom: 0;
+          }
+        }
+      }
+
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
