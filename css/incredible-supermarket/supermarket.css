@@ -87,7 +87,7 @@
         }
       }
       .more__items {
-        width: 170px;
+        width: fit-content;
         height: 50px;
         display: flex;
         flex-flow: row wrap;
