@@ -483,9 +483,9 @@
                   }
                 }
               }
-
+          
               &:hover {
-                box-shadow: 5px 5px 25px #f0f0f1;
+                filter: drop-shadow(0 1px 5px rgba(0,0,0,.2));       
               }
             }
             .last__slide {
