@@ -163,7 +163,7 @@ header {
           width: fit-content;
           height: inherit;
 
-          & a {
+          .menu__titles {
             display: flex;
             width: fit-content;
             padding-left: 12px;
@@ -190,16 +190,15 @@ header {
             &:hover {
               color: #020233;
               border-bottom: 2px solid #ef394e;
-             
             }
-    
           }
           .organized__items {
             display: flex;
             flex-flow: row wrap;
             align-items: center;
             justify-content: center;
-            height: 30px;
+            margin-top: 8px;
+            height: 20px;
             font-weight: 700;
             font-size: 13px;
             color: #3f4064;
@@ -210,7 +209,7 @@ header {
               }
             }
           }
-          &:hover .first{
+          &:hover .first {
             border-bottom: 0;
           }
 
@@ -279,17 +278,21 @@ header {
 
                     .view__all__text {
                       margin-bottom: 20px;
-                      & span {
-                        cursor: pointer;
-                        position: relative;
-                        & svg {
-                          position: absolute;
-                          top: 0px;
-                          margin-right: 4px;
+                      & a {
+                        text-decoration: none;
+                        & span {
                           cursor: pointer;
-                          & path {
-                            fill: #19bfd3;
-                            transform: scale(0.75);
+                          position: relative;
+                          color: #19bfd3;
+                          & svg {
+                            position: absolute;
+                            top: 5px;
+                            margin-right: 4px;
+                            cursor: pointer;
+                            & path {
+                              fill: #19bfd3;
+                              transform: scale(0.75);
+                            }
                           }
                         }
                       }
@@ -317,7 +320,6 @@ header {
                       .category__title {
                         width: 100%;
                         height: 30px;
-                        padding: 4px 0;
                         margin-bottom: 8px;
                         display: flex;
                         flex-flow: row wrap;
@@ -325,6 +327,7 @@ header {
                         justify-content: flex-start;
 
                         .line {
+                          margin-top: 5px;
                           margin-left: calc(2 * 4px);
                           width: 2px;
                           height: 14px;
@@ -332,15 +335,26 @@ header {
                         }
 
                         .text {
-                          & span {
-                            height: 30px;
+                          margin-bottom: 8px;
+                          display: inline-block;
+                          
+                          & a {        
+                            font-size: 13px;
+                            font-weight: 700;
+                            line-height: 2.15;
                             position: relative;
                             color: #0c0c0c;
+                          }
+                          & span {
+                            position: relative;
+                            color: #0c0c0c;
+
                             .chevron__left {
                               margin-right: 4px;
-                              top: 0px;
+                              top: 3px;
                               position: absolute;
                               & path {
+                                transform: scale(0.9);
                                 fill: #424750;
                               }
                             }
@@ -387,8 +401,8 @@ header {
                   display: block;
                   background-color: #fff;
                 }
-              
-                .mobile{
+
+                .mobile {
                   display: block;
                 }
 
