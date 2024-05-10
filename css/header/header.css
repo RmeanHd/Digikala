@@ -392,8 +392,10 @@ header {
                       }
                     }
                     .first__column {
+                      min-height: 300px;
                       height: fit-content;
                     }
+
                   }
                 }
 
