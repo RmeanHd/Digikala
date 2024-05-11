@@ -220,7 +220,7 @@ header {
             background-color: #fff;
             position: absolute;
             margin-top: 10px;
-            display: none;
+            /* display: none; */
 
             .subcategories {
               width: 19%;
@@ -391,7 +391,6 @@ header {
                       }
                     }
                     .first__column {
-                      min-height: 250px;
                       height: fit-content;
                     }
 
