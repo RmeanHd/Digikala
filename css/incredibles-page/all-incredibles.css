@@ -38,6 +38,8 @@
         border: 1px solid #e0e0e2;
         border-radius: 16px;
         background-color: #fff;
+        position: sticky;
+        top: calc(0px + 3.75rem);
 
         .filters__default {
           width: 100%;

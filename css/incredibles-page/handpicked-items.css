@@ -77,6 +77,31 @@
           max-width: 192px;
           padding: 12px 8px;
 
+          .remaining__units {
+            margin-top: 10px;
+            width: 100%;
+            height: 4px;
+            display: flex;
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: center;
+
+            .remained {
+              width: 0%;
+              height: 4px;
+              background-color: #f0f0f1;
+            }
+            .sold {
+              width: 100%;
+              height: 4px;
+              background-color: #ef394e;
+              border-radius: 16px;
+            }
+            .no__info {
+              background-color: #fff;
+            }
+          }
+
           .handpicked__main__text {
             display: flex;
             flex-flow: row wrap;
@@ -166,7 +191,9 @@
             .handpicked__delivery__svg__today {
               margin-left: 4px;
               & svg {
+                margin-top: 4px;
                 & path {
+                  transform: scale(0.8);
                   fill: #1028ff;
                 }
               }
