@@ -119,11 +119,16 @@
         color: #3f4064;
       }
 
-      & a {
-        width: 380px;
-        height: 100%;
+      & div {
+        display: flex;
+        width: 100%;
+        flex-flow: row wrap;
+        align-items: center;
+       & a{
+        
         margin-bottom: 8px;
         color: #81858b;
+       }
       }
     }
 

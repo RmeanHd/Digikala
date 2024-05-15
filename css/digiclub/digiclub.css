@@ -46,10 +46,11 @@
         .digiclub__tabs__main,
         .digiclub__first__tab,
         .digiclub__last__tab {
+          width: 100%;
           display: flex;
           flex-flow: row wrap;
           align-items: center;
-          justify-content: center;
+          justify-content: space-between;
           background-color: #fff;
           border: 2px solid #fff;
           .digiclub__tabs__texts {
@@ -75,7 +76,9 @@
           }
           .digiclub__tabs__images{
             display: flex;
-          
+            flex-flow: row wrap;
+            align-items: center;
+            justify-content: flex-end;
             & img {
               width: 168px;
               height: 64px;

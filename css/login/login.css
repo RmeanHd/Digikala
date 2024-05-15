@@ -11,6 +11,7 @@
     padding: 32px;
     border: 1px solid #e0e0e2;
     border-radius: 8px;
+
     .digikala__logo {
       display: flex;
       flex-flow: row wrap;

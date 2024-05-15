@@ -101,6 +101,11 @@
                 padding-top: 4px;
                 padding-bottom: 7px;
                 font-size: 14px;
+                .toman{
+                  display: flex;
+                  flex-flow: row wrap;
+                  align-items: center;
+                }
               }
             
               .percent {

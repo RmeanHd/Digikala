@@ -26,6 +26,7 @@
   }
 
   .other__titles{
+    width: 80%;
     margin-right: 40px;
     padding-top: 4px;
     display: flex;
