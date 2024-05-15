@@ -31,3 +31,8 @@
 @import "./incredibles-page/main-slider.css";
 @import "./incredibles-page/daily-deals.css";
 @import "./support/support.css";
+@import "./food-beverage-page/food-beverage-wrapper.css";
+@import "./food-beverage-page/food__beverage__titles.css";
+@import "./food-beverage-page/supermarket-slider.css";
+@import "./food-beverage-page/incredible-edibles.css";
+@import "./food-beverage-page/categorised-edibles.css";

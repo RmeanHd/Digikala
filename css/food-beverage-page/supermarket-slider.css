@@ -1,0 +1,49 @@
+.supermarket__slider{
+    width: 86%;
+    height: 400px;
+ 
+   
+
+    .swiper {
+        width: 100%;
+        height: 100%;
+        
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        & a{
+            display: flex;
+            width: 100%;
+            height: 100%;
+        
+
+        }
+      }
+  
+      .swiper-slide img {
+        border-radius: 16px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    outline: unset;
+      }
+      .navigate{
+        z-index: 1;
+        margin-right: 40px;
+        margin-left: 4px;
+        position: absolute;
+        right: 0;
+        bottom: 50px;
+        .swiper-button-next{
+          margin-right: 4px;
+          right: 50px;
+        }
+      }
+}

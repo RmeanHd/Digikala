@@ -1,0 +1,55 @@
+.food__beverage__titles {
+  width: 86%;
+  height: 44px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+
+  .main__title {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    .fresh {
+      & svg {
+        & path {
+          fill: #6bb927;
+        }
+      }
+    }
+    .fresh__text {
+        margin-right: 12px;
+      font-size: 21px;
+      font-weight: 500;
+      line-height: 2.1;
+      margin-right: 12px;
+    }
+  }
+
+  .other__titles{
+    margin-right: 40px;
+    padding-top: 4px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+
+    .main__items{
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        margin-left: 28px;
+        & span{
+            color: #62666d;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: 2.17;
+        }
+        .image{
+            margin-left: 4px;
+        }
+        .jet{
+            
+            color: rgb(255, 98, 0);
+        }
+    }
+  }
+}
