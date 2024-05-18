@@ -1,0 +1,82 @@
+.popular__brands__third__page{
+    width: 87%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 24px 0;
+    height: 225px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+   
+    .brands__title{
+        width: 100%;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        column-gap: 8px;
+        font-family: var(--fontfamily);
+        font-size: 21px;
+        font-weight: 500;
+        & svg {
+            margin-left: 8px;
+            & path{
+                fill: #f9bc00;
+            }
+        }
+        }
+    .brands__slider{
+        width: 100%;
+        height: 118px;
+        margin-top: 12px;
+        background: #e0e0e2;
+            .swiper {
+                width: 100%;
+                height: 100%;
+                .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+                    opacity: 0;
+                    cursor: auto;
+                    pointer-events: none;
+                  }
+              }
+          
+              .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-flow: column wrap;
+                & a{
+                    width: 142px;
+                    height: 118px;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+                justify-content: center;
+                & img{
+                    width: 110px;
+                    height: 110px;
+                    object-fit: contain;
+                }
+              }
+              }
+          
+              .swiper-slide img {
+                display: block;
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+              }
+              
+              
+        
+    }
+   
+}
