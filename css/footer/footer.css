@@ -74,25 +74,32 @@
     flex-flow: row wrap;
     align-items: center;
     justify-content: center;
-    & a {
-      min-width: 290px;
+    .icons{
+      width: 290px;
       display: flex;
       flex-flow: column wrap;
       align-items: center;
       justify-content: center;
-      padding: 12px 0px;
-      & img {
-        width: 56px;
-        height: 56px;
-      }
-
-      & p {
-        text-align: center;
-        color: #3f4064;
-        font-size: 11px;
-        font-weight: 400;
-        line-height: 2.17;
-      }
+      & a {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+       
+        padding: 12px 0px;
+        & img {
+          width: 56px;
+          height: 56px;
+        }
+  
+        & p {
+          text-align: center;
+          color: #3f4064;
+          font-size: 11px;
+          font-weight: 400;
+          line-height: 2.17;
+        }
+    }
     }
   }
 
