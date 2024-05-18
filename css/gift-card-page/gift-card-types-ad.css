@@ -1,0 +1,15 @@
+.gift__card__types__ad {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  column-gap: 32px;
+  & a {
+    & img {
+      width: 410px;
+      height: 207px;
+      object-fit: cover;
+    }
+  }
+}
