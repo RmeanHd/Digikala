@@ -241,7 +241,6 @@ header {
 
             .subcategory__title {
               all: unset;
-              cursor: pointer;
               direction: rtl;
               width: 92%;
               height: 26px;
@@ -256,6 +255,16 @@ header {
               font-size: 12px;
               font-weight: 700;
               line-height: 2.17;
+
+             .title__link{
+              color: #424750;
+                width: 100%;
+                height: inherit;
+                display: flex;
+                flex-flow: row wrap;
+                align-items: center;
+              
+             }
 
               .subcategory__contents {
                 width: 82%;
