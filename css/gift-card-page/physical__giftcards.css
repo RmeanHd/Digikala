@@ -1,0 +1,38 @@
+.physical__giftcards{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    .physical__title{
+        width: 100%;
+        height: 45px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        & span{
+            font-size: 22px;
+            font-weight: 700;
+        }
+    }
+
+    .main__items{
+        width: 85%;
+        height: 228px;
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        justify-content: center;
+        column-gap: 16px;
+        margin-top: 16px;
+        margin-bottom: 16px;
+        & img{
+            width: 304px;
+            height: 228px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+    }
+}

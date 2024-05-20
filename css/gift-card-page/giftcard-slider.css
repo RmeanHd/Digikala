@@ -1,4 +1,4 @@
-.flower__slider {
+.giftcard__slider {
   width: 85%;
   border-radius: 16px;
   border: 1px solid #e0e0e2;
@@ -125,6 +125,10 @@
             font-weight: 700;
             line-height: 2.17;
             color: #3f4064;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
           }
           .delivery__today {
             width: 100%;
@@ -256,6 +260,9 @@
             }
           }
         }
+      }
+      &:hover{
+       filter: none;
       }
     }
     .swiper-slide img {
