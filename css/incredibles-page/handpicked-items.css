@@ -150,6 +150,10 @@
               height: 150px;
             }
             .handpicked__add__svg {
+              display: flex;
+              flex-flow: row wrap;
+              align-items: center;
+              justify-content: center;
               border: 1px solid #ef4056;
               width: 27px;
               height: 27px;

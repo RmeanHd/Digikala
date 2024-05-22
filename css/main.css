@@ -52,3 +52,6 @@
 @import "./gift-card-page/gift-card-ads.css";
 @import "./gift-card-page/gift-card-quad-ads.css";
 @import "./gift-card-page/most-popular-gift-cards.css";
+@import "./best-selling-page/best-selling-title.css";
+@import "./best-selling-page/product-filter.css";
+@import "./best-selling-page/main-products.css";

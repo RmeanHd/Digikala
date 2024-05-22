@@ -1,0 +1,74 @@
+.best__selling__title {
+  width: 100%;
+  min-height: 110px;
+  margin-bottom: 16px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  
+
+  .best__selling__background {
+    position: absolute;
+    width: 100%;
+    height: 110px;
+    opacity: 25%;
+    background-position: 50%;
+    background-image: url(../../images/best-selling-page/title/bestSellingPattern.svg);
+  }
+  & h1 {
+    padding: 20px 0;
+    background-color: #fff;
+    font-size: 33px;
+    color: #ef394e;
+    font-weight: 500;
+    line-height: 2.1;
+    z-index: 2;
+  }
+  .mid__text {
+    width: 100%;
+    height: 40px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+
+    & span {
+      display: block;
+      width: 360px;
+      height: 2px;
+      background: linear-gradient(90deg, #e6123d, hsla(0, 0%, 100%, 0));
+    }
+
+    .fade__in {
+      transform: rotate(180deg);
+    }
+
+    .days__text {
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      padding-left: 24px;
+      padding-right: 24px;
+      background-color: #fff;
+      z-index: 2;
+      .seven__days {
+        .main__text__days {
+          color: #ef4056;
+          padding: 0 16px;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 2.15;
+        }
+      }
+      .month {
+        .main__text__month {
+          color: #0c0c0c;
+          font-size: 14px;
+          font-weight: 700;
+          line-height: 2.15;
+        }
+      }
+    }
+  }
+}

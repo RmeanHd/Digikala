@@ -141,6 +141,9 @@
           align-items: center;
         }
       }
+      .last__slide{
+        border-bottom: 0;
+      }
     }
 
     .swiper-slide img {

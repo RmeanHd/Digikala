@@ -1,0 +1,37 @@
+.product__filter {
+  width: 100%;
+  height: 112px;
+  padding: 20px 8px 20px 12px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+
+  .filter__type {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    .filter__main {
+      width: fit-content;
+      height: 40px;
+      border-radius: 10rem;
+      margin: 8px 8px;
+      font-size: 14px;
+      padding: 8px 12px;
+      color: #3f4064;
+      border: 1px solid #e0e0e2;
+ 
+      & span {
+        font-size: 13px;
+        font-weight: 700;
+        text-align: center;
+      }
+    }
+    .selected {
+      border: 1px solid #e6123d;
+      color: #ef4056;
+      background: rgba(224, 83, 83, 0.05);
+    }
+  }
+}

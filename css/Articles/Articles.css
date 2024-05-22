@@ -63,6 +63,7 @@
           object-fit: cover;
         }
         .articles__description {
+          min-height: 52px;
           color: #0c0c0c;
           font-size: 12px;
           font-weight: 400;

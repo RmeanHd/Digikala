@@ -146,6 +146,9 @@ header {
   flex-flow: row wrap;
   justify-content: space-between;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.14), 0 2px 0 rgba(0, 0, 0, 0.05);
+  position: relative;
+  z-index: 3;
+
 
   .right {
     width: 85%;
