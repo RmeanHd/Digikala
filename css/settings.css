@@ -22,7 +22,10 @@ body {
     width: 9px;
     background-color: #f0f0f1;
   }
-
+  ::-webkit-scrollbar-thumb{
+    width: 8px;
+    background-color: #a1a3a8;
+  }
 
 }
 :root {
