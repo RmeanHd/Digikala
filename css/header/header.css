@@ -179,14 +179,11 @@ header {
           padding-left: 12px;
           padding-right: 12px;
           text-decoration: none;
-          font-family: var(--fontfamily);
           font-size: 12px;
           line-height: 40px;
           color: #62666d;
           align-items: center;
-          transition: 100ms;
-          display: flex;
-          align-items: center;
+   
           transition: 50ms;
           & svg {
             margin-left: 4px;
