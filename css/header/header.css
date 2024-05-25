@@ -187,6 +187,7 @@ header {
           transition: 100ms;
           display: flex;
           align-items: center;
+          transition: 50ms;
           & svg {
             margin-left: 4px;
             & path {
@@ -198,6 +199,7 @@ header {
             }
           }
           &:hover {
+            transition: 50ms;
             color: #020233;
             border-bottom: 2px solid #ef394e;
           }
